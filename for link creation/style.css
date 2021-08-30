@@ -1,0 +1,586 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: black;
+}
+
+#header .left{
+   position: absolute;
+   top: 25px;
+   left: 85px;
+}
+#header .left img{
+    width: 200px;
+}
+
+#header .right{
+    position:absolute;
+    top: 35px;
+    right: 100px;
+}
+#header .right ul{
+    display: flex;
+   
+}
+#header .right ul li{
+    display: flex;
+}
+#header .right ul li a{
+    text-decoration: none;
+    padding: 0px 30px;
+    color: #aaa;
+    margin-top: 15px;
+}
+#header .right ul  button{
+    border: 1px solid #45391c ;
+    background: #45391c;
+    padding: 1rem 2rem;
+    border-radius: 99px;
+    width: 250px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    color: #aaa;
+}
+
+
+/* ready section start here  */
+#ready{
+    margin-top: 250px;
+    font-size: 30px;
+    color: white;
+}
+#ready h1{
+    margin-left: 70px;
+    margin-right: 300px;
+    font-family: 'Stardos Stencil', cursive;
+    color: #ead696;
+}
+
+#ready::before{
+    content: " ";
+    position: absolute;
+    background: url('./2.png') no-repeat center center/cover;
+    width: 100%;
+    height: 130%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+#ready .king {
+    display: flex;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+#ready .king .a{
+    padding-right: 40px;
+}
+#ready .king .a h2{
+    font-size: 24px;
+    font-weight: 700;
+}
+#ready .king .a p{
+    display: block;
+    color: #999;
+    font-size: 17px;
+}
+
+#ready .king .b{
+    padding-right: 40px;
+}
+#ready .king .b h2{
+    font-size: 24px;
+    font-weight: 700;
+}
+#ready .king .b p{
+    display: block;
+    color: #999;
+    font-size: 17px;
+}
+#ready .king .c h2{
+    font-size: 24px;
+    font-weight: 700;
+}
+#ready .king .c p{
+    display: block;
+    color: #999;
+    font-size: 17px;
+}
+
+/* welcome section start here*/
+#welcome {
+    margin-top: 400px;
+    text-align: center;
+   
+}
+#welcome h1{
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 28pt;
+    margin-bottom: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Stardos Stencil', cursive;
+    color: #ead696;
+}
+
+#welcome p{
+    margin: 20px 286px;  
+    color: #c9c9c9;
+    font-size: 15px;
+    line-height: 22px;
+   text-align: center;
+}
+#welcome .king{
+    display: none;
+}
+#welcome .img{
+    display: flex;
+    margin: 50px 70px;  
+}
+
+#welcome .img img{
+    width:200px;
+    margin-right: 20px;
+
+}
+
+
+/* bosses section start here  */
+
+#bosses{
+    display: flex;
+    color: #c9c9c9;
+    margin: 0px 70px;
+    margin-top: 50px;
+
+}
+#bosses .a{
+    font-size: 22px;
+    width: 100%;
+}
+#bosses .a h1{
+    font-family: 'Stardos Stencil', cursive;
+    color: #ead696;
+}
+#bosses .b{
+    width: 100%;
+
+}
+#bosses .b p{
+   line-height: 22px;
+   margin-right: 35px;
+   font-family: 'Stardos Stencil', cursive;
+}
+
+/* Diamonds section start here */
+#diamond{
+    display: flex;
+    margin: 50px 70px;
+   
+    color: #988036;
+}
+#diamond img{
+    width: 60px;
+    height: 60px;
+}
+#diamond p{
+    font-size: 25px;
+}
+#diamond .a{
+    display: flex;
+    width: 100%;
+    line-height: 30px;
+}
+#diamond .a p{
+    margin-right: 30px;
+    margin-left: 10px;
+}
+#diamond .b{
+    display: flex;
+    width: 100%;
+}
+#diamond .b p{
+    margin-right: 30px;
+    margin-left: 10px;
+}
+
+#diamond .c{
+    display: flex;
+    width: 100%;
+}
+#diamond .c p{
+    margin-right: 30px;
+    margin-left: 10px;
+}
+
+#img{
+    margin: 60px 80px;
+}
+#img img{
+    width: 100%;
+  text-align: center;
+}
+
+/* Road  section start here */
+#road{
+    margin-top: 80px;
+    text-align: center;
+}
+#road h1{
+    font-family: 'Stardos Stencil', cursive;
+    color: #ead696;
+    font-size: 33px;
+}
+#road p{
+    margin-top: 20px;
+    color: #c9c9c9;
+
+}
+#road .road{
+    display: flex;
+    margin: 30px 120px;
+}
+
+#road .road .a h1{
+    align-items: center;
+    border: 2px solid #988036;
+    border-radius: 50%;
+    color: #988036;
+    display: flex;
+    font-size: 19px;
+    font-weight: 700;
+    height: 62px;
+    justify-content: center;
+    margin-bottom: 20px;
+    position: relative;
+    width: 62px;
+      
+}
+#road .road .b {
+    margin: 0px 40px;
+    margin-top: 30px;
+    
+    border-top: 1px solid  #988036;
+   width: 100%;
+ }
+
+
+#road .road .c h1{
+    align-items: center;
+    border: 2px solid #988036;
+    border-radius: 50%;
+    color: #988036;
+    display: flex;
+    font-size: 19px;
+    font-weight: 700;
+    height: 62px;
+    justify-content: center;
+    margin-bottom: 20px;
+    position: relative;
+    width: 62px;
+}
+#road .road .d {
+    margin: 0px 40px;
+    margin-top: 30px;
+    border-top: 1px solid  #988036;
+   width: 100%;
+ }
+
+#road .road .e h1{
+    align-items: center;
+    border: 2px solid #988036;
+    border-radius: 50%;
+    color: #988036;
+    display: flex;
+    font-size: 19px;
+    font-weight: 700;
+    height: 62px;
+    justify-content: center;
+    margin-bottom: 20px;
+    position: relative;
+    width: 62px;
+}
+#road .road .f {
+    margin: 0px 40px;
+    margin-top: 30px;
+    border-top: 1px solid  #988036;
+   width: 100%;
+ }
+#road .road .g h1{
+    align-items: center;
+    border: 2px solid #988036;
+    border-radius: 50%;
+    color: #988036;
+    display: flex;
+    font-size: 19px;
+    font-weight: 700;
+    height: 62px;
+    justify-content: center;
+    margin-bottom: 20px;
+    position: relative;
+    width: 62px;
+}
+#road .road .h {
+    margin: 0px 40px;
+    margin-top: 30px;
+    border-top: 1px solid  #988036;
+   width: 100%;
+ }
+#road .road .i h1{
+    align-items: center;
+    border: 2px solid #988036;
+    border-radius: 50%;
+    color: #988036;
+    display: flex;
+    font-size: 19px;
+    font-weight: 700;
+    height: 62px;
+    justify-content: center;
+    margin-bottom: 20px;
+    position: relative;
+    width: 62px;
+}
+/* para section start here*/
+
+#para{
+    display: flex;
+    color: #c9c9c9;
+    margin: 10px 40px;
+    text-align: center;
+} 
+#para .a{
+    width: 100%;
+}
+#para .a p{
+    padding: 0px 40px;
+}
+#para .b{
+    width: 100%;  
+}
+#para .b p{
+    padding: 0px 30px;
+}
+#para .c{
+    width: 100%;
+}
+#para .c p{
+    padding: 0px 60px;
+}
+#para .d{
+    width: 100%;
+}
+#para .d p{
+    padding: 0px 30px;
+}
+#para .e{
+    width: 100%;
+}
+#para .e p{
+    padding: 0px 30px;
+}
+#roadres{
+    display: none;
+}
+/* Frequently section start here */
+#freq{
+    margin-top: 50px;
+    font-family: 'Gothic A1', sans-serif;
+    background-color: black;
+}
+#freq h1{
+    font-family: 'Stardos Stencil', cursive;
+    color:     #ead696;
+    font-size: 33px;
+    text-align: center;
+}
+#freq .question1{
+    display: flex;
+    border: 1px solid #988036;
+    color: #988036;
+    margin: 20px 250px;
+}
+#freq .question1:active{
+    border: 1px solid #e2ab04;
+    color: #e2ab04;
+}
+#freq .question1 i{
+    font-size: 33px;
+    margin-top: 8px;
+    margin-left: 330px;
+    margin-right: 0px;
+}
+#freq .question1 p{
+    padding: 15px 20px;
+    padding-right: 0px;
+    font-size: 17px;
+}
+#freq .answer1{
+    display: none;
+}
+#freq .answer1 p{
+    color: white;
+
+}
+
+
+#freq .question2{
+    display: flex;
+    border: 1px solid #988036;
+    color: #988036;
+    margin: 20px 250px;
+}
+#freq .question2:active{
+    border: 1px solid #e2ab04;
+    color: #e2ab04;
+}
+#freq .question2 i{
+    font-size: 33px;
+    margin-top: 8px;
+    margin-left: 455px;
+}
+#freq .question2 p{
+    padding: 15px 20px;
+    font-size: 17px;
+   
+}
+#freq .answer2{
+    display: none;
+}
+
+
+#freq .question3{
+    display: flex;
+    border: 1px solid #988036;
+    color: #988036;
+    margin: 20px 250px;
+}
+#freq .question3:active{
+    border: 1px solid #e2ab04;
+    color: #e2ab04;
+}
+#freq .question3 i{
+    font-size: 33px;
+    margin-top: 8px;
+    margin-left: 530px;
+}
+#freq .question3  p{
+    padding: 15px 20px;
+    font-size: 17px;
+   
+}
+#freq .answer3{
+    display: none;
+}
+
+
+#freq .question4{
+    display: flex;
+    border: 1px solid #988036;
+    color: #988036;
+    margin: 20px 250px;
+}
+#freq .question4:active{
+    border: 1px solid #e2ab04;
+    color: #e2ab04;
+}
+#freq .question4 i{
+    font-size: 33px;
+    margin-top: 8px;
+    margin-left: 425px;
+}
+#freq .question4 p{
+    padding: 15px 20px;
+    font-size: 17px;
+   
+}
+#freq .answer4{
+    display: none;
+}
+
+/* Gang section start here */
+#gang{
+    margin-top: 90px;
+}
+#gang h2{
+    text-align: center;
+    font-family: 'Stardos Stencil', cursive;
+    color: #ead696;
+    font-size: 33px;
+
+}
+#gang #para{
+    text-align: center;
+    font-size: 17px;
+    margin-top: 20px;
+    color: #c9c9c9;
+    margin: 20px 250px;
+    line-height: 25px;
+    font-family: 'Gothic A1', sans-serif;
+}
+#gang .img {
+    display: flex;
+    margin: 50px 70px;
+}
+#gang .img img{
+   padding: 0px 15px;
+    width: 150px;
+}
+#gang .img h1{
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Stardos Stencil', cursive;
+    color: #ead696;
+    font-size: 18px;
+}
+#gang .img p{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 5px;
+    color: #c9c9c9;
+    font-family: 'Gothic A1', sans-serif;
+}
+
+#gangs{
+    display: none;
+}
+
+/* twitter section start here */
+#twitter{
+    display: flex;
+    margin: 40px 60px;
+    color: white;
+}
+#twitter .a img{
+    width: 180px;
+}
+
+#twitter .b ul{
+    display: flex;
+    margin-left: 200px;
+}
+#twitter .b ul li{
+    display: flex;
+    text-decoration: none;
+    font-family: 'Gothic A1', sans-serif;
+    color: #ead696;
+   margin-top: 12px;
+   font-weight: 100;
+    padding: 0px 30px;
+
+}
+#twitter .c{
+    margin-left: 200px;
+    margin-top: 14px;
+    font-family: 'Gothic A1', sans-serif;
+    color: #c9c9c9;
+}
+
+footer{
+    text-align: center;
+    color: blue;
+}
